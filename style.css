@@ -1,0 +1,76 @@
+/*-- Odin Recipes--*/
+/*-- Website built and designed by AceAdmin.com.au --*/
+
+/* GENERAL CLASSES */
+
+@font-face{font-family:Forestry;src:url(https://dl.dropbox.com/s/jf7vmgqwzocwg3p/The%20Nineties%20Called%20They%20Want%20Their%20Font%20Back.otf);}
+
+body{
+margin:0;
+padding:0;
+background:#000;
+font-family:helvetica,arial,sans-serif;
+font-size:15px;
+}
+
+blockquote{font-style:italic;
+border 2px #ffffff;
+border-style: dashed;
+padding: 19px;
+margin: 3px;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-family: 'Forestry';
+letter-spacing: 3px;
+font-size: 30px;
+}
+
+a, a:visited, a:active{
+color:#ffff00;
+text-decoration:none;
+}
+
+a:hover{
+text-decoration:underline;
+color:#ffff00;
+}
+
+#container{
+margin: 0 auto;
+padding: 5px;
+max-width: 1200px;
+display: flex;
+}
+
+#header
+{
+  margin: 0 auto; 
+  padding: 5px; 
+  max-width: 1200px;
+  text-align: center;
+}
+
+#nav {
+padding: 10px; 
+background-color: rgb(55, 116, 116); 
+height: 50px;
+text-align: center;
+}
+
+
+/* CONTENT */
+
+#content {
+max-width:900px;
+background-color: rgb(167, 206, 246);
+flex:2;
+}
+
+#content a, #content a:visited{
+color:#ffff00;
+}
+
+#content a:hover{
+text-decoration:underline;
+}
